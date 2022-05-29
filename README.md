@@ -5,4 +5,4 @@
 * `weather -s [CITY]` - set city
 * `weather` - get weather for a setted city
 
-[https://www.npmjs.com/package/weather-cli-test-01]
+https://www.npmjs.com/package/weather-cli-test-01
