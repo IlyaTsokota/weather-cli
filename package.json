@@ -1,9 +1,12 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-test-01",
   "version": "1.0.0",
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,11 +18,15 @@
   "author": "Ilya Tsokota",
   "license": "ISC",
   "repository": {
-     "type": "git",
-     "url": ""
+    "type": "git",
+    "url": "https://github.com/IlyaTsokota/weather-cli"
   },
   "bugs": {
-    "url": "",
     "email": "ilya.tsokota@gmail.com"
   },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
 }
